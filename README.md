@@ -1,3 +1,26 @@
+# invoice-x.org website
+
+This repo has the static website hosted on `invoice-x.org`.
+
+- theme used: https://aksakalli.github.io/jekyll-doc-theme/
+- Icon used: https://www.flaticon.com/free-icon/financial-document_67773
+- Color used: #3c6382
+
+New template:
+https://github.com/aksakalli/jekyll-doc-theme
+https://jekyllrb.com/docs/themes/
+
+
+pages:
+
+frontpage: intro etc
+standards: intro to relevant standards and docs
+projects: intro of different invoice-x projects. link to readthedocs
+blog: some project news
+related libraries: other open source implementation by language
+
+
+
 # Jekyll Doc Theme
 
 Go to [the website](https://aksakalli.github.io/jekyll-doc-theme/) for detailed information and demo.
