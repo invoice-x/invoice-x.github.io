@@ -38,16 +38,16 @@ defaults:
     sectionid: blog
 
 - scope:
-    path: _docs
-    type: docs
+    path: _standards
+    type: standards
   values:
     layout: docs
-    sectionid: docs
+    sectionid: standards
     seo:
       type: "WebPage"
 
 collections:
-  docs:
+  standards:
     permalink: /:collection/:path/
     output: true
   posts:

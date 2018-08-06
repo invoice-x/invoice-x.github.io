@@ -15,9 +15,9 @@ pages:
 
 frontpage: intro etc
 standards: intro to relevant standards and docs
-projects: intro of different invoice-x projects. link to readthedocs
+available tools: intro of different invoice-x projects. link to readthedocs
 blog: some project news
-related libraries: other open source implementation by language
+related project: other open source implementation by language
 
 
 

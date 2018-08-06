@@ -1,6 +1,14 @@
 ---
-title: Customization
-permalink: /docs/customization/
+title: Our Projects and Libraries
+permalink: /projects/
+layout: page
+subnav:
+  - text: Factur-X
+    href: '#facturx'
+  - text: Invoice2data
+    href: '#invoice2data
+  - text: Invoice-X GUI
+    href: '#invoicex-gui
 ---
 
 This template uses [bootstrap-sass](https://github.com/twbs/bootstrap-sass) along with [bootwatch themes](https://bootswatch.com/).
