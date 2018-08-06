@@ -1,6 +1,6 @@
 ---
 title: Welcome
-permalink: /standards/
+permalink: /docs/
 ---
 
 ## Getting started

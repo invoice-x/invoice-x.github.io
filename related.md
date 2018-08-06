@@ -1,6 +1,7 @@
 ---
-title: Related Products
-permalink: /related
+title: Third-party Products
+permalink: /related/
+layout: page
 ---
 
 This template uses [bootstrap-sass](https://github.com/twbs/bootstrap-sass) along with [bootwatch themes](https://bootswatch.com/).

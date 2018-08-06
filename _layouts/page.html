@@ -2,22 +2,19 @@
 layout: default
 ---
 
-<div class="container">
+<div class="container" data-spy="scroll" data-target="#page-nav" data-offset="0">
     <div class="row">
         <div class="col-md-4">
 
         {% if page.subnav %}
-            <nav>
-              <ul class="nav flex-column">
+              <div class="list-group" id="page-nav">
                 {% for link in page.subnav %}
-                <li class="nav-item">
-                  <a href="{{ link.href }}">
+                  <a class="list-group-item list-group-item-action" 
+                     href="{{ link.href }}">
                      {{ link.text }}
                   </a>
-                </li>
                 {% endfor %}
-              </ul>
-            </nav>
+              </div>
         {% endif %}
         </div>
 
