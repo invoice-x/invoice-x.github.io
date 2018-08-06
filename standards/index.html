@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Customization</title>
-    <meta name="description" content="This template uses bootstrap-sass along with bootwatch themes.You can create your own theme by writing your own sass files.">
+    <title>Welcome</title>
+    <meta name="description" content="Getting started">
 
 
     <link rel="stylesheet" href="/css/main.css">
@@ -15,22 +15,22 @@
 
     <link rel="shortcut icon" href="/favicon.ico?1">
     <!-- Begin Jekyll SEO tag v2.2.2 -->
-<title>Customization | Invoice-X</title>
-<meta property="og:title" content="Customization" />
+<title>Welcome | Invoice-X</title>
+<meta property="og:title" content="Welcome" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="This template uses bootstrap-sass along with bootwatch themes. You can create your own theme by writing your own sass files." />
-<meta property="og:description" content="This template uses bootstrap-sass along with bootwatch themes. You can create your own theme by writing your own sass files." />
-<link rel="canonical" href="https://www.invoice-x.org/docs/customization/" />
-<meta property="og:url" content="https://www.invoice-x.org/docs/customization/" />
+<meta name="description" content="Getting started" />
+<meta property="og:description" content="Getting started" />
+<link rel="canonical" href="https://www.invoice-x.org/standards/" />
+<meta property="og:url" content="https://www.invoice-x.org/standards/" />
 <meta property="og:site_name" content="Invoice-X" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2018-08-06T06:24:32+02:00" />
+<meta property="article:published_time" content="2018-08-06T08:00:49+02:00" />
 <script type="application/ld+json">
-{"@context":"http://schema.org","@type":"WebPage","headline":"Customization","datePublished":"2018-08-06T06:24:32+02:00","dateModified":"2018-08-06T06:24:32+02:00","description":"This template uses bootstrap-sass along with bootwatch themes. You can create your own theme by writing your own sass files.","url":"https://www.invoice-x.org/docs/customization/"}</script>
+{"@context":"http://schema.org","@type":"WebPage","headline":"Welcome","datePublished":"2018-08-06T08:00:49+02:00","dateModified":"2018-08-06T08:00:49+02:00","description":"Getting started","url":"https://www.invoice-x.org/standards/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-    <link rel="canonical" href="https://www.invoice-x.org/docs/customization/">
+    <link rel="canonical" href="https://www.invoice-x.org/standards/">
     <link rel="alternate" type="application/rss+xml" title="Invoice-X" href="https://www.invoice-x.org/feed.xml" />
 </head>
 
@@ -52,7 +52,9 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li  class="active" ><a href="/docs/home/">Docs</a></li>
+                <li  class="active" ><a href="/standards/">Standards</a></li>
+                <li ><a href="/projects/">Our Projects</a></li>
+                <li ><a href="/related/">Related Products</a></li>
                 <li ><a href="/blog/2017/05/03/jekyll-doc-theme/">Blog</a></li>
             </ul>
             <div class="navbar-right">
@@ -89,18 +91,6 @@
     <div id="collapse-1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
       <ul class="list-group">
         
-          
-          
-          <a class="list-group-item " href="/docs/home/">Welcome</a>
-        
-          
-          
-          <a class="list-group-item " href="/docs/themes/">Themes</a>
-        
-          
-          
-          <a class="list-group-item active" href="/docs/customization/">Customization</a>
-        
       </ul>
     </div>
   </div>
@@ -116,18 +106,6 @@
     <div id="collapse-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
       <ul class="list-group">
         
-          
-          
-          <a class="list-group-item " href="/docs/cheatsheet/">Markdown Cheatsheet</a>
-        
-          
-          
-          <a class="list-group-item " href="/docs/font-awesome/">Font Awesome Icon List</a>
-        
-          
-          
-          <a class="list-group-item " href="/docs/bootstrap/">Bootstrap Features</a>
-        
       </ul>
     </div>
   </div>
@@ -137,19 +115,57 @@
         </div>
 
         <div class="col-md-8">
-            <h1>Customization</h1>
-            <div id="markdown-content-container"><p>This template uses <a href="https://github.com/twbs/bootstrap-sass">bootstrap-sass</a> along with <a href="https://bootswatch.com/">bootwatch themes</a>.
-You can create your own theme by writing your own <code class="highlighter-rouge">sass</code> files.</p>
+            <h1>Welcome</h1>
+            <div id="markdown-content-container"><h2 id="getting-started">Getting started</h2>
 
-<p>Create a new a theme folder like <code class="highlighter-rouge">_sass/bootwatch/custom</code> and set your <code class="highlighter-rouge">bootwatch</code> variables in <code class="highlighter-rouge">_config.yml</code> to <code class="highlighter-rouge">custom</code>:</p>
+<p><a href="https://pages.github.com">GitHub Pages</a> can automatically generate and serve the website for you.
+Let’s say you have a username/organisation <code class="highlighter-rouge">my-org</code> and project <code class="highlighter-rouge">my-proj</code>; if you locate Jekyll source under <code class="highlighter-rouge">docs</code> folder of master branch in your repo <code class="highlighter-rouge">github.com/my-org/my-proj</code>, the website will be served on <code class="highlighter-rouge">my-org.github.io/my-proj</code>.
+The good thing about coupling your documentation with the source repo is, whenever you merge features with regarding content to master branch, it will also be published on the webpage instantly.</p>
 
-<div class="language-yaml highlighter-rouge"><pre class="highlight"><code><span class="s">bootwatch</span><span class="pi">:</span> <span class="s">custom</span>
+<ol>
+  <li>Just <a href="https://github.com/aksakalli/jekyll-doc-theme/archive/gh-pages.zip">download the source</a> into your repo under <code class="highlighter-rouge">docs</code> folder.</li>
+  <li>Edit site settings in  <code class="highlighter-rouge">_config.yml</code> file according to your project. !!! <code class="highlighter-rouge">baseurl</code> should be your website’s relative URI like <code class="highlighter-rouge">/my-proj</code> !!!</li>
+  <li>Replace <code class="highlighter-rouge">favicon.ico</code> and <code class="highlighter-rouge">img/logonav.png</code> with your own logo.</li>
+</ol>
+
+<h2 id="writing-content">Writing content</h2>
+
+<h3 id="docs">Docs</h3>
+
+<p>Docs are <a href="https://jekyllrb.com/docs/collections/">collections</a> of pages stored under <code class="highlighter-rouge">_docs</code> folder. To create a new page:</p>
+
+<p><strong>1.</strong> Create a new Markdown as <code class="highlighter-rouge">_docs/my-page.md</code> and write <a href="https://jekyllrb.com/docs/frontmatter/">front matter</a> &amp; content such as:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>---
+title: My Page
+permalink: /docs/my-page/
+---
+
+Hello World!
 </code></pre>
 </div>
+
+<p><strong>2.</strong> Add the pagename to <code class="highlighter-rouge">_data/docs.yml</code> file in order to list in docs navigation panel:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>- title: My Group Title
+  docs:
+  - my-page
+</code></pre>
+</div>
+
+<h3 id="blog-posts">Blog posts</h3>
+
+<p>Add a new Markdown file such as <code class="highlighter-rouge">2017-05-09-my-post.md</code> and write the content similar to other post examples.</p>
+
+<h3 id="pages">Pages</h3>
+
+<p>The homepage is located under <code class="highlighter-rouge">index.html</code> file. You can change the content or design completely different welcome page for your taste. (You can use <a href="http://getbootstrap.com/components/">bootstrap components</a>)</p>
+
+<p>In order to add a new page, create a new <code class="highlighter-rouge">.html</code> or <code class="highlighter-rouge">.md</code> (markdown) file under root directory and link it in <code class="highlighter-rouge">_includes/topnav.html</code>.</p>
 </div>
             <p class="text-center">
               <br />
-              <a target="_blank" href="https://github.com/invoice-x/invoice-x-site/blob/gh-pages/_docs/customization.md" class="btn btn-default githubEditButton" role="button">
+              <a target="_blank" href="https://github.com/invoice-x/invoice-x-site/blob/gh-pages/_standards/index.md" class="btn btn-default githubEditButton" role="button">
                 <i class="fa fa-pencil fa-lg"></i> Improve this page
               </a>
             </p>
@@ -168,29 +184,16 @@ You can create your own theme by writing your own <code class="highlighter-rouge
 
   
   
-    <ul class="pager">
-      
-        
-        
-        <li class="previous">
-          <a href="/docs/themes/">
-            <span aria-hidden="true">&larr;</span> Previous
-          </a>
-        </li>
-      
 
-      
-        
-        
-        <li class="next">
-          <a href="/docs/cheatsheet/">
-            Next <span aria-hidden="true">&rarr;</span>
-          </a>
-        </li>
-      
-    </div>
-    <div class="clear"></div>
-    
+  
+  
+
+  
+  
+
+  
+  
+
 
         </div>
 
