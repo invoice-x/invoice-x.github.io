@@ -82,17 +82,17 @@
               <div class="list-group" id="page-nav">
                 
                   <a class="list-group-item list-group-item-action" 
-                     href="#facturx">
+                     href="#pdf-container-and-xmp">
                      PDF Container and XMP
                   </a>
                 
                   <a class="list-group-item list-group-item-action" 
-                     href="#invoice2data">
+                     href="#invoice-representations">
                      Invoice Representations
                   </a>
                 
                   <a class="list-group-item list-group-item-action" 
-                     href="#zugferd">
+                     href="#embedding-standards">
                      Embedding Standards
                   </a>
                 
@@ -107,8 +107,7 @@
 
         <div class="col-md-8">
             <h1>Official Standards</h1>
-            <div id="markdown-content-container"><h2 id="summary">Summary</h2>
-<p>The hybrid invoice model presented on this page is a collection of different standards that allow for great flexibility and many different use cases. In short, the outer layer a PDF/A. The <em>A</em> stands for <em>Archive</em>. It ensures maximum compatibility and avoids risky features like encryption and font-linking. PDF/A is also an ISO standard.[4]</p>
+            <div id="markdown-content-container"><p>The hybrid invoice model presented on this page is a collection of different standards that allow for great flexibility and many different use cases. In short, the outer layer a PDF/A. The <em>A</em> stands for <em>Archive</em>. It ensures maximum compatibility and avoids risky features like encryption and font-linking. PDF/A is also an ISO standard.[4]</p>
 
 <p>The next layer is a XMP (Extensible Metadata Platform) description of the embedded file. XMP is most commonly used in images to save attributes, like author or location. As a metadata format, XMP contains data about other files. For the Factur-X format it contains information on the filename, version and conformance level.</p>
 
@@ -128,8 +127,11 @@
 <h2 id="invoice-representation">Invoice representation</h2>
 <p>The structured representation of an invoice is the real core of a hybrid invoice. Naturally it is tightly coupled with the associated transaction. There are a number of different standards in this field, UBL and CII being the most popular ones. All of them allow for a degree of flexibility to fully represent all relevant details of the transaction. It’s also possible to add extensions.</p>
 
-<h3 id="cii-cross-industry-invoice-by-uncefact">CII (Cross Industry Invoice) by UN/CEFACT</h3>
 <h3 id="universal-business-language-ubl-by-oasis-isoiec-19845">Universal Business Language (UBL) by OASIS (ISO/IEC 19845)</h3>
+<p>OASIS is a non-profit organisation involved with structured information standards.[7] One of their projects is UBL, a collection of business documents represented in XML format. [to expand]</p>
+
+<h3 id="cii-cross-industry-invoice-by-uncefact">CII (Cross Industry Invoice) by UN/CEFACT</h3>
+
 <h3 id="en16931-eu-standard-of-a-generic-data-model-with-representation-in-both-cii-and-ubl">EN16931: EU standard of a generic data model with representation in both CII and UBL.</h3>
 
 <h2 id="embedding-standards">Embedding standards</h2>
@@ -148,22 +150,22 @@
 </ul>
 
 <h3 id="factur-xzugferd-20">Factur-x/Zugferd 2.0</h3>
-<ul>
-  <li>Latest 2017 release, supports various flavors of CII and will suppport UBL.</li>
-</ul>
+<p>Latest 2017 release, supports various flavors of CII and will suppport UBL.</p>
 
 <h2 id="references">References</h2>
-<p>1: https://www.pdflib.com/pdf-knowledge-base/pdfa/zugferd-invoices/
-2: WILL XML-BASED ELECTRONIC INVOICE STANDARDS SUCCEED? – AN EXPLORATIVE STUDY, https://balsa.man.poznan.pl/indico/event/44/material/paper/0?contribId=194
-3: iX article: https://www.heise.de/ix/heft/Fakturierungsautomat-2268413.html
-4: https://en.wikipedia.org/wiki/PDF/A
-5: https://en.wikipedia.org/wiki/PDF
-6: https://www.w3.org/RDF/</p>
-
+<ul>
+  <li>1: https://www.pdflib.com/pdf-knowledge-base/pdfa/zugferd-invoices/</li>
+  <li>2: WILL XML-BASED ELECTRONIC INVOICE STANDARDS SUCCEED? – AN EXPLORATIVE STUDY, https://balsa.man.poznan.pl/indico/event/44/material/paper/0?contribId=194</li>
+  <li>3: iX article: https://www.heise.de/ix/heft/Fakturierungsautomat-2268413.html</li>
+  <li>4: https://en.wikipedia.org/wiki/PDF/A</li>
+  <li>5: https://en.wikipedia.org/wiki/PDF</li>
+  <li>6: https://www.w3.org/RDF/</li>
+  <li>7: https://www.oasis-open.org/</li>
+</ul>
 </div>
             <p class="text-center">
               <br />
-              <a target="_blank" href="https://github.com/invoice-x/invoice-x-site/blob/gh-pages/standards.md" class="btn btn-default githubEditButton" role="button">
+              <a target="_blank" href="https://github.com/invoice-x/invoice-x.org/blob/master/standards.md" class="btn btn-default githubEditButton" role="button">
                 <i class="fa fa-pencil fa-lg"></i> Improve this page
               </a>
             </p>
