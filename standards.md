@@ -4,16 +4,15 @@ permalink: /standards/
 layout: page
 subnav:
   - text: PDF Container and XMP
-    href: '#facturx'
+    href: '#pdf-container-and-xmp'
   - text: Invoice Representations
-    href: '#invoice2data'
+    href: '#invoice-representations'
   - text: Embedding Standards
-    href: '#zugferd'
+    href: '#embedding-standards'
   - text: References
     href: '#references'
 ---
 
-## Summary
 The hybrid invoice model presented on this page is a collection of different standards that allow for great flexibility and many different use cases. In short, the outer layer a PDF/A. The *A* stands for *Archive*. It ensures maximum compatibility and avoids risky features like encryption and font-linking. PDF/A is also an ISO standard.[4]
 
 The next layer is a XMP (Extensible Metadata Platform) description of the embedded file. XMP is most commonly used in images to save attributes, like author or location. As a metadata format, XMP contains data about other files. For the Factur-X format it contains information on the filename, version and conformance level.
@@ -34,8 +33,12 @@ Like PDF, XMP was also developed by Adobe to add metadata to media files. The fo
 ## Invoice representation
 The structured representation of an invoice is the real core of a hybrid invoice. Naturally it is tightly coupled with the associated transaction. There are a number of different standards in this field, UBL and CII being the most popular ones. All of them allow for a degree of flexibility to fully represent all relevant details of the transaction. It's also possible to add extensions.
 
-### CII (Cross Industry Invoice) by UN/CEFACT
 ### Universal Business Language (UBL) by OASIS (ISO/IEC 19845)
+OASIS is a non-profit organisation involved with structured information standards.[7] One of their projects is UBL, a collection of business documents represented in XML format. [to expand]
+
+### CII (Cross Industry Invoice) by UN/CEFACT
+
+
 ### EN16931: EU standard of a generic data model with representation in both CII and UBL.
 
 ## Embedding standards
@@ -52,13 +55,13 @@ To date there are two main standards for this. Luckily they were recently merged
 - Factur-X is the same standard than ZuGFERD 2.0
 
 ### Factur-x/Zugferd 2.0
-- Latest 2017 release, supports various flavors of CII and will suppport UBL.
+Latest 2017 release, supports various flavors of CII and will suppport UBL.
 
 ## References
-1: https://www.pdflib.com/pdf-knowledge-base/pdfa/zugferd-invoices/
-2: WILL XML-BASED ELECTRONIC INVOICE STANDARDS SUCCEED? – AN EXPLORATIVE STUDY, https://balsa.man.poznan.pl/indico/event/44/material/paper/0?contribId=194
-3: iX article: https://www.heise.de/ix/heft/Fakturierungsautomat-2268413.html
-4: https://en.wikipedia.org/wiki/PDF/A
-5: https://en.wikipedia.org/wiki/PDF
-6: https://www.w3.org/RDF/
-
+- 1: https://www.pdflib.com/pdf-knowledge-base/pdfa/zugferd-invoices/
+- 2: WILL XML-BASED ELECTRONIC INVOICE STANDARDS SUCCEED? – AN EXPLORATIVE STUDY, https://balsa.man.poznan.pl/indico/event/44/material/paper/0?contribId=194
+- 3: iX article: https://www.heise.de/ix/heft/Fakturierungsautomat-2268413.html
+- 4: https://en.wikipedia.org/wiki/PDF/A
+- 5: https://en.wikipedia.org/wiki/PDF
+- 6: https://www.w3.org/RDF/
+- 7: https://www.oasis-open.org/

@@ -7,7 +7,7 @@ description: >
 baseurl: ""
 url: https://www.invoice-x.org # the base hostname & protocol for your site
 git_address: https://github.com/invoice-x/
-git_edit_address: https://github.com/invoice-x/invoice-x-site/blob/gh-pages
+git_edit_address: https://github.com/invoice-x/invoice-x.org/blob/master
 
 # theme options from https://bootswatch.com/
 # comment out this to use default Bootstrap

@@ -1,5 +1,5 @@
 ---
-title: Third-party Products
+title: Third-party Libraries
 permalink: /related/
 layout: page
 ---
