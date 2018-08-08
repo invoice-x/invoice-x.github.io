@@ -4,11 +4,17 @@ permalink: /related/
 layout: page
 ---
 
-This template uses [bootstrap-sass](https://github.com/twbs/bootstrap-sass) along with [bootwatch themes](https://bootswatch.com/).
-You can create your own theme by writing your own `sass` files.
+This page has a list of related hybrid invoice implementations. They should all be fully compatible with Factur-X and all the tools published by the Invoice-X initiative.
 
-Create a new a theme folder like `_sass/bootwatch/custom` and set your `bootwatch` variables in `_config.yml` to `custom`:
+If you wish to add missing products, feel free to open a pull request on Github using the button at the bottom of the page.
 
-```yaml
-bootwatch: custom
-```
+## Libraries (open source):
+
+### Java
+- Mustan Project: http://www.mustangproject.org/
+- Konik: https://konik.io/
+
+## Libraries (commercial):
+- Mimotek (in Beta): http://www.mimotek.com/index.php/zugferd/
+- jPDFProcess: https://www.qoppa.com/pdfprocess/
+- PDFlib: https://www.pdflib.com/de/pdf-know-how/pdfa/zugferd-rechnungen/

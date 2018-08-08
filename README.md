@@ -20,6 +20,7 @@ blog: some project news
 related project: other open source implementation by language
 
 scrollspy: https://getbootstrap.com/docs/4.0/components/scrollspy/
+wiki page: https://wiki.debian.org/SummerOfCode2018/Projects/ExtractingDataFromPDFInvoicesAndBillsDetails
 
 
 
