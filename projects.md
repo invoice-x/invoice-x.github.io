@@ -16,7 +16,7 @@ This library extracts structured data from PDFs using a template system. It work
 
 [https://github.com/invoice-x/invoice2data](https://github.com/invoice-x/invoice2data)
 
-## Factur-X
+## Factur-X NG
 The first Python-library to support the Zugferd and Factur-X standards. Inititially published by Akretion for use in their ERP system. Later expanded to allow easy manipulation of the underlying XML file, support Python 3 and easier additions of new XML standards or use cases.
 
 [https://github.com/invoice-x/factur-x](https://github.com/invoice-x/factur-x)
