@@ -11,7 +11,7 @@ If you wish to add missing products, feel free to open a pull request on Github 
 ## Libraries (open source):
 
 ### Java
-- Mustan Project: http://www.mustangproject.org/
+- Mustang Project: http://www.mustangproject.org/
 - Konik: https://konik.io/
 
 ### C#
